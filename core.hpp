@@ -65,6 +65,4 @@ void run_shuffle3 (size_t length) {
     std::chrono::duration<double> elapsed_seconds = end - start;
     std::cout << "number of int: " << length << "  elapsed time: " << elapsed_seconds.count() << "s\n";
 
-
-
 }
