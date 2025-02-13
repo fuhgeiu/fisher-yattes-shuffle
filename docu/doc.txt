@@ -1,0 +1,66 @@
+notes
+
+header
+
+    header to contain all algorithims in funciton, pass in an array and each func can be called from benchmark
+
+target files
+
+    base cpp file to run functions without the use of benchmark
+
+    benchmark cpp file to run fucntions and benchmark them
+
+    in each benchmark and base create arrays of varius size and pass those in
+
+ notes
+
+    how to pass in a number in the benchmark so i dont need to create and fill an array
+
+        or in the header file call funtion
+
+        int* func (length) {
+
+            create array [length]
+
+            fill the array in with numbers in a sequential pattern 1 -> length
+
+           return ptr to allocated array
+        }
+
+
+
+   structure
+
+    in header
+
+        def func to create array
+
+        def func of algorithims
+
+
+    in core file
+
+        func run(flag to show array) create func for each algorithim
+
+            func to create array and return ptr
+
+            func algorithim (this will be called when benchmark), use one of the algorithims
+
+            if (flag) print array
+
+            delete ptr
+
+
+    in base main
+
+        func run(length of array,flag to show array)
+
+
+    in benchmark main
+
+        benchmark
+
+            func (length of array)
+
+
+
